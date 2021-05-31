@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int firstArray[20] {68, 24, 32, 91, 54, 82, 75, 85, 93, 87, 52, 73, 64, 67, 23, 12, 9, 84, 76, 7};
+    int secondArray[5] {2, 7, 8, 11, 16};
+    cout << arr[20] << endl; //print 27 for some reason
+    cout << secondArray[5] << endl; // prints ((number entered) - 5)th element of firstArray
+}
